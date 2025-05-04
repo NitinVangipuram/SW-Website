@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import "./Others.css";
-import yuva from './images/yuvaSangam2.jpg';
-import yuva1 from './images/yuvasangam1.jpg';
-import yuva2 from './images/yuvaSangam3.jpg';
+import yuva from '../images/yuvaSangam2.jpg';
+import yuva1 from '../images/yuvasangam1.jpg';
+import yuva2 from '../images/yuvaSangam3.jpg';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import { useIntersection } from 'react-use';

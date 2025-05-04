@@ -1,0 +1,34 @@
+/* src/BootstrapCard.css */
+.card {
+  margin: 20px auto; /* Center the card */
+  padding:10px;
+/*   background: rgba(80, 150, 200, 0.3); */
+  background: rgba(50, 100, 255, 0.2);
+  height: 80%;
+  width: 80%;
+  border:none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift up effect */
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.card-img-top {
+  width: 100px; /* Set width for the circular image */
+  height: 100px; /* Set height for the circular image */
+  object-fit: cover; /* Ensure the image covers the area */
+  margin: 0 auto; /* Center the image */
+}
+
+.card-name {
+  color: blue; /* Set name color to blue */
+  margin: 10px 0 5px; /* Add margin for spacing */
+}
+
+.card-title {
+  color: black; /* Set title color to black */
+  margin: 0; /* Remove default margin */
+}

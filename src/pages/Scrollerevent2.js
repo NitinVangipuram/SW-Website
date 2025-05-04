@@ -2,7 +2,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import img from "./images/mess.jpg";
+// import img from "../images/mess.jpg";
 import React, { useState } from "react";
 
 

@@ -46,7 +46,7 @@ html, body {overflow-x: hidden !important;width: 100vw !important;
   margin-left: 100px;
 }
 .link-li-p p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .link-li-p p:hover{
   text-decoration: underline;
@@ -58,7 +58,7 @@ html, body {overflow-x: hidden !important;width: 100vw !important;
   /* border: 2px solid red;  */
 }
 .logo-in{
-  /* display: flex; 
+  /* display: flex;
   align-items: center; */
    /* border: 2px solid red;  */
    padding: 6px;
@@ -67,7 +67,7 @@ html, body {overflow-x: hidden !important;width: 100vw !important;
     /* border: 2px solid red; */
     /* margin-top: auto; */
     /* height:100px; */
-    
+
   }
   .logo-1{
     font-size: 2.1rem;
@@ -146,7 +146,7 @@ main{
   height: 100vh;
   width: 270px;
   transition: all 0.5s;
-  
+
   overflow-y:auto;
   position: fixed;
   padding-top: 100px;
@@ -164,7 +164,7 @@ main{
   /* height: 100vh;
   width: 270px; */
   transition: all 0.5s;
-  
+
   /* overflow-y:auto;
   position: fixed;
   padding-top: 100px;
@@ -173,12 +173,12 @@ main{
   justify-content: center;
   overflow-wrap: normal;
   z-index: 88; */
-  
+
 }
 .sidebar-wrap{
   display: grid;
   grid-template-columns: 1fr auto;
-  
+
 }
 
 .sidebar::-webkit-scrollbar{
@@ -201,16 +201,16 @@ main{
 }
 .footer-bar{
   background-color: #fecaca;
-  position: fixed; 
+  position: fixed;
   top: 94%;
     margin-left: 270px;
     width: 100vw;
-    padding: 15px 0px; 
+    padding: 15px 0px;
     display: flex;
-    
+
     padding-left: 200px;
     gap: 5px;
-    
+
   }
   .footbar-1 p{
     font-size: 1.2rem;
@@ -229,19 +229,19 @@ main{
       top: 28px;
       font-size: 15px;
     }
-    
+
     .link-li{
       margin: 10px 15px;
       padding-bottom: 10px;
       padding-top: 10px;
       border-bottom: 1px solid #f2f3f4;
-      
+
     }
     .link-li-p p{
     font-size: 1.25rem;
   }
   .info1 img{
-    
+
     margin-left: 20px;
   }
   .web-links ul li{
@@ -259,22 +259,22 @@ main{
     letter-spacing: normal;
 
   }
-  
+
   .footer-bar{
     display: none;
   }
-  
+
   .sidebar{
     display: none;
   }
- 
+
   .top-info{
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
- 
-  
+
+
  .topbar{
     display: flex;
     align-items: center;
@@ -315,7 +315,7 @@ main{
 .active{
   color: rgb(244, 172, 172);
   font-size: 1rem;
- 
+
 }
 .icon, .link_text{
   font-size: 20px;
@@ -391,7 +391,7 @@ main{
     font-size: 1.7rem;
     padding-left: 390px;
     align-items: center;
-    
+
   }
   .footbar-1 p{
     font-size: 1.7rem;

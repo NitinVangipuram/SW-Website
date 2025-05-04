@@ -1,29 +1,30 @@
 import React from 'react';
 import "./StudentDivisionOrgano.css";
-import pradeepy from './images/PY Adj Prof - Pradeep_Yammiyavar_0.jpg';
-import prabhu from './images/Prabhu1 - Prabhu R.jpg';
-import gopalSP from './images/Gopal Parashari Pic - Gopal Sharan Parashari.jpg';
-import prahladJoshi from './images/Dr. Prahlad Joshi.jpg';
-import chetanKumar from './images/ChetanKumarM - Chetan Kumar M.jpg';
-import janardanReddy from './images/Janardhan Reddy S.jpg';
-import raviM from './images/RaviM.jpg';
-import raviSG from './images/Ravi - Ravi Ghalimath.jpg';
-import keerthiK from './images/Keerthi Kumar.jpeg';
-import GRamesh from './images/Ramesh - Ramesh G.png';
-import Ramesh from "../Img/DSC_4417 copy - Surya Prakash Ramesh.jpg"
-import Arun from "../Img/Arun_Verma.jpg";
-import Rajesh from "../Img/rajesh.jpg";
-import Avinash from "../Img/IMG_20240115_154113 - AVINASH B.jpg";
-import amoldiwate from './images/amoldiwate.jpg';
-import vcprakash from './images/vs prakash.jpg';
-import ridhima from './images/Ridhima_Photo - Ridhima Tewari.jpg'
+import PradeepYammiyavar from '../images/faculty/pradeep-yammiyavar.jpg';
+import RPrabhu from '../images/faculty/r-prabhu.jpg';
+import GopalSharanParashari from '../images/faculty/gopal-sharan-parashari.jpg';
+import PrahladJoshi from '../images/faculty/prahlad-joshi.jpg';
+import ChetanKumarM from '../images/staff/chetan-kumar-m.jpg';
+import JanardanReddyS from '../images/staff/janardhan-reddy-s.jpg';
+import RaviM from '../images/staff/ravi-m.jpg';
+import RaviGalimath from '../images/staff/ravi-galimath.jpg';
+import KeerthiKumarM from '../images/staff/keerthi-kumar-m.jpeg';
+import GRamesh from '../images/staff/ramesh-g.png';
+import SuryaPrakashRamesh from "../images/faculty/surya-prakash-ramesh.jpg"
+import ArunVerma from "../images/staff/arun-verma.jpg";
+import RajeshwaraRao from "../images/faculty/rajeshwara-rao.jpg";
+import AvinashB from "../images/staff/avinash-b.jpg";
+import AmolDiwate from '../images/staff/amol-diwate.jpg';
+import VSPrakash from '../images/staff/v-s-prakash.jpg';
+import RidhimaTewari from '../images/faculty/ridhima-tewari.jpg'
+import BLTembe from '../images/faculty/b-l-tembe.png';
+import RameshKumar from '../images/staff/ramesh-kumar.png';
+import RamjeeRepaka from '../images/faculty/ramjee-repaka.jpeg';
+
 import { NavLink } from 'react-router-dom';
 import { FaArrowDownLong } from 'react-icons/fa6';
 import BackToTop from './BackToTop';
 import { FaArrowLeft } from 'react-icons/fa6';
-import tembe from './images/Tembe.png';
-import RameshKumar from './images/RameshKumar.png';
-import ramjee from './images/r1.jpeg';
 import { motion } from 'framer-motion';
 export default function StudentDivisionOrgano() {
 
@@ -56,7 +57,7 @@ export default function StudentDivisionOrgano() {
                         <div>
 
                             <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} className='info-1' style={{ marginTop: "20px" }}>
-                                <img src={ramjee} alt='loaidng'></img>
+                                <img src={RamjeeRepaka} alt='loaidng'></img>
                                 <div className='name-fs'>  <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Ramjee Repaka</span></p></div>
                                 <div className='des-fs'>    <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Dean, Student Welfare</h4></div>
 
@@ -66,7 +67,7 @@ export default function StudentDivisionOrgano() {
 
                     <motion.div variants={{ hidden: { opacity: 0, y: 75 }, visible: { opacity: "1", y: 0 } }} initial="hidden" animate="visible" transition={{ duration: 0.5, delay: 0.25 }} className='associate-deans'>
                         <div className='associate-dean-1'>
-                            <img src ={Rajesh} alt='loading'></img>
+                            <img src ={RajeshwaraRao} alt='loading'></img>
                             <div className='name-fs'>  <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}><p><span style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Rajeshwara</span></p></div>  </div>
                             <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Rao</span></p>
                             <div className='des-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Associate Dean</h4>
@@ -76,7 +77,7 @@ export default function StudentDivisionOrgano() {
                             </div></div>
                         </div>
                         <div className='associate-dean-1'>
-                            <img src ={Ramesh} alt='loading'></img>
+                            <img src ={SuryaPrakashRamesh} alt='loading'></img>
                             <div className='name-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Prof. Suryaprakash</span></p>
                                 <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Ramesh</span></p></div></div>
                             <div className='des-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Associate Dean</h4>
@@ -87,7 +88,7 @@ export default function StudentDivisionOrgano() {
 
                         </div>
                         <div className='associate-dean-1'>
-                            <img src={ridhima} alt='loading'></img>
+                            <img src={RidhimaTewari} alt='loading'></img>
                             <div className='name-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <p><span style={{ fontWeight: "600", color: "#4338ca", textAlign: "center" }}>Dr. Ridhima</span></p>
                                 <p><span style={{ fontWeight: "600", color: "#4338ca", textAlign: "center" }}>Tewari</span></p></div></div>
                             <div className='des-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Associate Dean</h4>
@@ -95,7 +96,7 @@ export default function StudentDivisionOrgano() {
                         </div>
 
                         {/* <div className='associate-dean-1'>
-                            <img src={prahladJoshi} alt='loading'></img>
+                            <img src={PrahladJoshi} alt='loading'></img>
                             <div className='name-fs'>    <div style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}> <p><span style={{ fontWeight: "600", color: "#4338ca", textAlign: "center" }}>Group Captain</span></p>
                                 <p><span style={{ fontWeight: "600", color: "#4338ca", textAlign: "center" }}>Dr. Prahlad S</span></p>
                                 <p><span style={{ fontWeight: "600", color: "#4338ca", textAlign: "center" }}>Joshi</span></p></div></div>
@@ -103,7 +104,7 @@ export default function StudentDivisionOrgano() {
                                 <h4 style={{ fontWeight: "600", color: "#313132" }} className='designation'>Advisor</h4></div></div>
                         </div> */}
                         {/* <div className='associate-dean-1'>
-                            <img src={vcprakash} alt='loading'></img>
+                            <img src={VSPrakash} alt='loading'></img>
                             <div className='name-fs' style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}>   <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Col. V. C.</span></p>
                                 <p><span style={{ fontWeight: "600", color: "#4338ca" }}>Prakash</span></p>
                             </div>
@@ -120,7 +121,7 @@ export default function StudentDivisionOrgano() {
                         </div>
                         <div className='information' style={{ marginTop: "30px", display: "flex", gap: "50px", flexWrap: "wrap" }}>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={Arun} alt='loading'></img>
+                                <img style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={ArunVerma} alt='loading'></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }} className='name'>Arun Verma</p></div>
                                     <div className='designation-fs' style={{ display: "flex", gap: "3px", justifyContent: "center", flexWrap: "wrap" }}><h4 style={{ marginTop: "5px" }}>Assistant Registrar</h4>
@@ -132,7 +133,7 @@ export default function StudentDivisionOrgano() {
                             </div>
 
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={amoldiwate} style={{ height: "100px", width: "100px", borderRadius: "50%" }} alt='loading'></img>
+                                <img src={AmolDiwate} style={{ height: "100px", width: "100px", borderRadius: "50%" }} alt='loading'></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Amol Diwate</p></div>
                                     <div style={{ display: "flex", gap: "4px", justifyContent: "center", flexWrap: "wrap" }}><h4 style={{ marginTop: "5px" }}>Junior</h4>
@@ -142,7 +143,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={Avinash}></img>
+                                <img alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} src ={AvinashB}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Avinash B</p></div>
                                     <h4 style={{ marginTop: "5px" }}>Junior Assistant</h4>
@@ -150,7 +151,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={janardanReddy} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} className='janardan'></img>
+                                <img src={JanardanReddyS} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }} className='janardan'></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>S Janardhan Reddy</p></div>
                                     <h4 style={{ marginTop: "5px" }}>Junior Assistant</h4>
@@ -160,15 +161,15 @@ export default function StudentDivisionOrgano() {
                             </div>
 
                             {/* <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={raviSG} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={RaviGalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>   <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
-                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p></div>
+                                        <p style={{ fontWeight: "600", color: "#4338ca" }}>Galimath</p></div>
                                     <h4 style={{ marginTop: "5px" }}>Member Of HCU</h4>
                                 </div>
                             </div> */}
                             {/* <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={keerthiK} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={KeerthiKumarM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <div className='name-fs'>    <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr Keerthi Kumar M</p></div>
                                     <h4 style={{ marginTop: "5px" }}>Member Of HCU</h4>
@@ -481,15 +482,15 @@ export default function StudentDivisionOrgano() {
 
                         <div className='information' style={{ marginTop: "20px", display: "flex", gap: "50px", flexWrap: "wrap" }}>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={raviSG} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={RaviGalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
-                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p>
+                                    <p style={{ fontWeight: "600", color: "#4338ca" }}>Galimath</p>
                                     <h4 style={{ marginTop: "5px" }}>Member Of HCU</h4>
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={keerthiK} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={KeerthiKumarM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr Keerthi Kumar M</p>
                                     <h4 style={{ marginTop: "5px" }}>Member Of HCU</h4>
@@ -503,7 +504,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={amoldiwate} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={AmolDiwate} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Amol Diwate</p>
                                     <h4 style={{ marginTop: "5px" }}>Junior Superintendent</h4>
@@ -511,7 +512,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={chetanKumar} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={ChetanKumarM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Chetan Kumar M</p>
                                     <h4 style={{ marginTop: "5px" }}>Junior Assistant</h4>
@@ -519,7 +520,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={janardanReddy} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={JanardanReddyS} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>S Janardhan Reddy</p>
                                     <h4 style={{ marginTop: "5px" }}>Junior Assistant</h4>
@@ -528,7 +529,7 @@ export default function StudentDivisionOrgano() {
                                 </div>
                             </div>
                             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                <img src={raviM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                                <img src={RaviM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
 
                                     <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi M</p>
@@ -703,17 +704,17 @@ export default function StudentDivisionOrgano() {
 
                     <div className='information' style={{ marginTop: "20px", display: "flex", gap: "50px", flexWrap: "wrap" }}>
                         <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                            <img src={keerthiK} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                            <img src={KeerthiKumarM} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                 <p style={{ fontWeight: "600", color: "#4338ca" }}>Dr Keerthi Kumar M</p>
                                 <h4 style={{ marginTop: "5px" }}>Sports Officer</h4>
                             </div>
                         </div>
                         <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                            <img src={raviSG} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
+                            <img src={RaviGalimath} alt='loading' style={{ height: "100px", width: "100px", borderRadius: "50%" }}></img>
                             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5px" }}>
                                 <p style={{ fontWeight: "600", color: "#4338ca" }}>Ravi Shivaprakash</p>
-                                <p style={{ fontWeight: "600", color: "#4338ca" }}>Ghalimath</p>
+                                <p style={{ fontWeight: "600", color: "#4338ca" }}>Galimath</p>
                                 <h4 style={{ marginTop: "5px" }}>Assistant Sports Officer</h4>
                             </div>
                         </div>
@@ -1234,7 +1235,7 @@ export default function StudentDivisionOrgano() {
                     <div className='alumni-fs'><p style={{ marginTop: "20px", marginLeft: "10px", fontWeight: "600" }}>Former Deans -Students Welfare Division</p></div>
                     <div className='dean-fs' style={{ marginTop: "auto", backgroundColor: "#fae8ff" }}>
                         <div className='first-fs' style={{ display: "flex", gap: "6px", alignItems: "center", flexDirection: "column", padding: "15px" }}>
-                            <img src={tembe} alt='loading'></img>
+                            <img src={BLTembe} alt='loading'></img>
                             <p style={{ color: "#4338ca" }} className='name'>Prof. B.L.Tembe </p>
                             <p style={{ color: "rgb(51, 72, 120)" }} className='designation'>July 2019 - June 2023</p>
 
